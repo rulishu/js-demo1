@@ -7,12 +7,12 @@ var dragging = false;
 var lastX;
 var lastY;
 
-document.body.onclick = function (e) {
-    // console.log(e.clientX,
-    //     e.clientY)
-    div1.style.top = e.clientY + "px";
-    div1.style.left = e.clientX + "px";
-}
+// document.body.onclick = function (e) {
+//     console.log(e.clientX,
+//         e.clientY)
+//     div1.style.top = e.clientY + "px";
+//     div1.style.left = e.clientX + "px";
+// }
 
 document.body.onmousedown = function (e) {
     dragging = true;
